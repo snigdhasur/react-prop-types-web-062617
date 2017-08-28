@@ -24,10 +24,10 @@ Order.defaultProps = {
 };
  
 Order.propTypes = {
-	cone: PropTypes.bool
-	size: PropTypes.string
+	cone: PropTypes.bool,
+	size: PropTypes.string,
 	// scoops: PropTypes.array.isRequired --> this requires array; below requires array of strings
-	scoops: PropTypes.arrayOf(PropTypes.string).isRequired
+	scoops: PropTypes.arrayOf(PropTypes.string).isRequired,
 	// orderInfo: PropTypes.object.isRequired; below gives specific inputs that are required in the object
 	orderInfo: PropTypes.shape({
 	    customerName: PropTypes.string.isRequired,
